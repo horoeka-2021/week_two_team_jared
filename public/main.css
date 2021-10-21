@@ -37,7 +37,14 @@ body {
   /* justify-content: space-around; */
 }
 
-.puppy-list {
+.bird-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.cat-list {
   display: flex;
   flex-direction: column;
   align-items: center;
