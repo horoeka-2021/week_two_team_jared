@@ -21,6 +21,7 @@ router.get('/sightings', (req, res) => {
   })
 })
 
+// displays an individual cat
 router.get('/:id', (req, res) => {
   const fileName = 'catData.json'
   utils.getData(fileName, (err, parses) => {
@@ -31,7 +32,7 @@ router.get('/:id', (req, res) => {
     const id = req.params.id
     const catArray = parses.cats
     const catObject = catArray.find(element => element.id === Number(id))
-    res.render('catDetails', catObject)
+    res.render('cat-details', catObject)
   })
 })
 
