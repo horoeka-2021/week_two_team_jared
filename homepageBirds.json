@@ -29,6 +29,71 @@
       "id": 6,
       "name": "Tui",
       "image": "/images/birds/tui.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Black Robin",
+      "image": "/images/birds/black-robin.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Blue Duck",
+      "image": "/images/birds/blue-duck.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Kākā",
+      "image": "/images/birds/Kākā.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Kākāpō",
+      "image": "/images/birds/Kākāpō.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Little Blue Penguin",
+      "image": "/images/birds/little-blue-penguin.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Morepork",
+      "image": "/images/birds/morepork.jpg"
+    },
+    {
+      "id": 12,
+      "name": "North Island Robin",
+      "image": "/images/birds/north-island-robin.jpg"
+    },
+    {
+      "id": 13,
+      "name": "South Island Robin",
+      "image": "/images/birds/south-island-robin.jpg"
+    },
+    {
+      "id": 14,
+      "name": "New Zealand Falcon",
+      "image": "/images/birds/nz-falcon.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Silvereye",
+      "image": "/images/birds/silvereye.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Takahē",
+      "image": "/images/birds/takahe.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Tomtit",
+      "image": "/images/birds/tomtit.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Weka",
+      "image": "/images/birds/weka.jpg"
     }
   ]
 }
