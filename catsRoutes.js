@@ -6,6 +6,21 @@ const router = express.Router()
 
 module.exports = router
 
+// Cat sightings
+router.get('/sightings', (req, res) => {
+  const fileName = 'catData.json'
+  utils.getData(fileName, (err, parsedData) => {
+    if (err) {
+      res.status(500).send('Sorry we could not find what you were looking for')
+      return
+    }
+    const viewData = {
+      cats: parsedData.cats
+    }
+    res.render('catHome', viewData)
+  })
+})
+
 router.get('/:id', (req, res) => {
   const fileName = 'catData.json'
   utils.getData(fileName, (err, parses) => {

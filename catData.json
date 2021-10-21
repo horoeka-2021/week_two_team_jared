@@ -4,50 +4,22 @@
       "id": 1,
       "name": "Coco",
       "owner": "Unkown",
-      "image": "/images/puppy2.jpg",
-      "breed": "Labrador"
+      "image": "/images/cats/cat1.jpg",
+      "dangerLevel": "extremelyHigh"
     },
     {
       "id": 2,
-      "name": "TODO: REPLACE PUPPIES WITH CATS FOR THE REST OF THIS DATA FILE",
+      "name": "Max",
       "owner": "Matthew",
-      "image": "/images/puppy5.jpg",
-      "breed": "Pug"
+      "image": "/images/cats/cat2.jpg",
+      "dangerLevel": "extremelyHigh"
     },
     {
-      "name": "Rocksta-e",
-      "breed": "Labrador",
+      "id": 3,
+      "name": "Rocksta",
       "owner": "Ricky",
-      "image": "/images/puppy7.jpg",
-      "id": 3
-    },
-    {
-      "name": "Tobi",
-      "breed": "Labrador",
-      "owner": "Brianna",
-      "image": "/images/puppy6.jpg",
-      "id": 4
-    },
-    {
-      "name": "Fido1",
-      "breed": "Labrador",
-      "owner": "Fred",
-      "image": "/images/puppy1.jpg",
-      "id": 5
-    },
-    {
-      "name": "Magnum GUnna",
-      "breed": "Rottweiler",
-      "owner": "Michael",
-      "image": "/images/puppy3.jpg",
-      "id": 6
-    },
-    {
-      "name": "Sadie2",
-      "breed": "Labrador",
-      "owner": "Sam",
-      "image": "/images/puppy4.jpg",
-      "id": 7
+      "image": "/images/cats/cat3.png",
+      "dangerLevel": "extremelyHigh"
     }
   ]
 }
