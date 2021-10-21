@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #DCC48E;
   font-family: 'Spirax', cursive;
 }
 
@@ -12,6 +12,29 @@ body {
 .app {
   display: flex;
   flex-direction: column;
+}
+
+.nav-bar {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.buttons {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.red-button {
+  background-color: #621B00;
+  font-size: larger;
+  color: ivory;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5%;
+  /* justify-content: space-around; */
 }
 
 .puppy-list {
@@ -41,7 +64,9 @@ body {
 
 .nav {
   text-align: center;
+  font-size: x-large;
   color: black;
+  padding: 2%
 }
 
 .form {

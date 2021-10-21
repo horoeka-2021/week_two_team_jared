@@ -7,43 +7,28 @@
     },
     {
       "id": 2,
-      "species": "Pug",
-      "image": "/images/puppy5.jpg"
+      "species": "Bellbird",
+      "image": "/images/birds/bellbird.jpg"
     },
     {
-      "name": "Rocksta-e",
-      "breed": "Labrador",
-      "owner": "Ricky",
-      "image": "/images/puppy7.jpg",
-      "id": 3
+      "id": 3,
+      "name": "Fantail",
+      "image": "/images/birds/fantail.jpg"
     },
     {
-      "name": "Tobi",
-      "breed": "Labrador",
-      "owner": "Brianna",
-      "image": "/images/puppy6.jpg",
-      "id": 4
+      "id": 4,
+      "name": "Kea",
+      "image": "/images/birds/kea.jpg"
     },
     {
-      "name": "Fido1",
-      "breed": "Labrador",
-      "owner": "Fred",
-      "image": "/images/puppy1.jpg",
-      "id": 5
+      "id": 5,
+      "name": "Kingfisher",
+      "image": "/images/birds/kingfisher.png"
     },
     {
-      "name": "Magnum GUnna",
-      "breed": "Rottweiler",
-      "owner": "Michael",
-      "image": "/images/puppy3.jpg",
-      "id": 6
-    },
-    {
-      "name": "Sadie2",
-      "breed": "Labrador",
-      "owner": "Sam",
-      "image": "/images/puppy4.jpg",
-      "id": 7
+      "id": 6,
+      "name": "Tui",
+      "image": "/images/birds/tui.jpg"
     }
   ]
 }
