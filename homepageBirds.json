@@ -32,7 +32,7 @@
     },
     {
       "id": 3,
-      "name": "Fantail",
+      "species": "Fantail",
       "image": "/images/birds/fantail.jpg",
       "fun-fact": "Fantails mainly eat small invertebrates, such as moths, flies, beetles and spiders.", 
       "learn-more": "https://www.nzbirdsonline.org.nz/species/new-zealand-fantail",
@@ -47,7 +47,7 @@
     },
     {
       "id": 4,
-      "name": "Kea",
+      "species": "Kea",
       "image": "/images/birds/kea.jpg", 
       "fun-fact": "Kea are the only true alplie parrots in the world.", 
       "learn-more": "https://nzbirdsonline.org.nz/?q=node/472",
@@ -62,7 +62,7 @@
     },
     {
       "id": 5,
-      "name": "Kingfisher",
+      "species": "Kingfisher",
       "image": "/images/birds/kingfisher.png", 
       "fun-fact": "Kingfishers close their eyes as they dive into the water, so they are fishing blind! ", 
       "learn-more": "https://nzbirdsonline.org.nz/species/sacred-kingfisher",
@@ -77,7 +77,7 @@
     },
     {
       "id": 6,
-      "name": "Tui",
+      "species": "Tui",
       "image": "/images/birds/tui.jpg", 
       "fun-fact": "Tui have two voice boxes.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/tui",
@@ -92,7 +92,7 @@
     },
     {
       "id": 7,
-      "name": "Black Robin",
+      "species": "Black Robin",
       "image": "/images/birds/black-robin.jpg", 
       "fun-fact": "The introduction of threats has almost eliminated this species.", 
       "learn-more": "https://nzbirdsonline.org.nz/species/black-robin",
@@ -107,7 +107,7 @@
     },
     {
       "id": 8,
-      "name": "Blue Duck",
+      "species": "Blue Duck",
       "image": "/images/birds/blue-duck.jpg", 
       "fun-fact": "South Island Blue Ducks are uniformly larger than North Island ones.", 
       "learn-more": "https://nzbirdsonline.org.nz/species/blue-duck",
@@ -122,7 +122,7 @@
     },
     {
       "id": 9,
-      "name": "Kākā",
+      "species": "Kākā",
       "image": "/images/birds/Kākā.jpg", 
       "fun-fact": "These birds are named after the noise they make while flying over forests.", 
       "learn-more": "https://nzbirdsonline.org.nz/species/kaka",
@@ -137,7 +137,7 @@
     },
     {
       "id": 10,
-      "name": "Kākāpō",
+      "species": "Kākāpō",
       "image": "/images/birds/Kākāpō.jpg", 
       "fun-fact": "Kākāpō won Bird of the Year in 2020", 
       "learn-more": "https://nzbirdsonline.org.nz/species/kakapo",
@@ -152,7 +152,7 @@
     },
     {
       "id": 11,
-      "name": "Little Blue Penguin",
+      "species": "Little Blue Penguin",
       "image": "/images/birds/little-blue-penguin.jpg", 
       "fun-fact": "This is the smallest species of penguin in the world.", 
       "learn-more": "https://nzbirdsonline.org.nz/species/little-penguin",
@@ -167,7 +167,7 @@
     },
     {
       "id": 12,
-      "name": "Morepork",
+      "species": "Morepork",
       "image": "/images/birds/morepork.jpg", 
       "fun-fact": "The Morepork is the only remaining native owl speices found in NZ.", 
       "learn-more": "https://nzbirdsonline.org.nz/species/morepork",
@@ -182,7 +182,7 @@
     },
     {
       "id": 13,
-      "name": "North Island Robin",
+      "species": "North Island Robin",
       "image": "/images/birds/north-island-robin.jpg", 
       "fun-fact": "This species was extinct in the lower North Island until 76 birds were transferred to Zealandia (a bird sanctuary) from Kapiti Island in 2001 and 2002.",
       "learn-more": "https://nzbirdsonline.org.nz/species/north-island-robin", 
@@ -197,10 +197,10 @@
     },
     {
       "id": 14,
-      "name": "South Island Robin",
+      "species": "South Island Robin",
       "image": "/images/birds/south-island-robin.jpg", 
-      "fun-fact": "", 
-      "learn-more": "",
+      "fun-fact": "South Island Robins are  sparsely distributed through the South Island and Stewart Island/Rakiura, although the distribution is not continuous.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/south-island-robin",
       "sightings": [
         {
           "sighting-id": "",
@@ -212,10 +212,10 @@
     },
     {
       "id": 15,
-      "name": "Kārearea",
+      "species": "Kārearea",
       "image": "/images/birds/nz-falcon.jpg",
       "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.", 
-      "learn-more": "",
+      "learn-more": "https://nzbirdsonline.org.nz/species/new-zealand-falcon",
       "sightings": [
         {
           "sighting-id": "",
@@ -227,10 +227,10 @@
     },
     {
       "id": 16,
-      "name": "Silvereye",
+      "species": "Silvereye",
       "image": "/images/birds/silvereye.jpg", 
-      "fun-fact": "", 
-      "learn-more": "",
+      "fun-fact": "These birds colonised New Zealand from Australia in the 1850s.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/silvereye",
       "sightings": [
         {
           "sighting-id": "",
@@ -242,10 +242,10 @@
     },
     {
       "id": 17,
-      "name": "Takahē",
+      "species": "Takahē",
       "image": "/images/birds/takahe.jpg", 
-      "fun-fact": "", 
-      "learn-more": "",
+      "fun-fact": "The South Island Takahē are the only remaining Takahē in New Zealand.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/south-island-takahe",
       "sightings": [
         {
           "sighting-id": "",
@@ -257,10 +257,10 @@
     },
     {
       "id": 18,
-      "name": "Tomtit",
+      "species": "Tomtit",
       "image": "/images/birds/tomtit.jpg", 
-      "fun-fact": "", 
-      "learn-more": "",
+      "fun-fact": "These birds weigh less than a AAA battery.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/tomtit",
       "sightings": [
         {
           "sighting-id": "",
@@ -272,10 +272,10 @@
     },
     {
       "id": 19,
-      "name": "Weka",
+      "species": "Weka",
       "image": "/images/birds/weka.jpg", 
-      "fun-fact": "", 
-      "learn-more": "",
+      "fun-fact": "The Weka are one of New Zealand's largest flightless birds; their population numbers are cyclic with expansion and decline.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/weka",
       "sightings": [
         {
           "sighting-id": "",
