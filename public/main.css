@@ -96,3 +96,7 @@ body {
   align-items: center;
   font-family: 'Roboto', sans-serif;
 }
+
+.detail {
+  margin: 2px;
+}
