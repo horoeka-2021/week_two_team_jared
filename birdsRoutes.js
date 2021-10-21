@@ -3,6 +3,18 @@ const utils = require('./utils')
 const router = express.Router()
 
 module.exports = router
+// Go to add sighting bird page
+router.get('/add-sighting', (req, res) => {
+  const fileName = 'homepageBirds.json'
+  utils.getData(fileName, (err, parses) => {
+    if (err) {
+      res.status(500).send('Sorry we could not find what you were looking for')
+      return
+    }
+    const viewData = parses.birds
+    res.render('bird-edit', viewData)
+  })
+})
 
 router.get('/:id', (req, res) => {
   const fileName = 'homepageBirds.json'
