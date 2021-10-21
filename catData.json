@@ -1,0 +1,53 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "Coco",
+      "owner": "Unkown",
+      "image": "/images/puppy2.jpg",
+      "breed": "Labrador"
+    },
+    {
+      "id": 2,
+      "name": "TODO: REPLACE PUPPIES WITH CATS FOR THE REST OF THIS DATA FILE",
+      "owner": "Matthew",
+      "image": "/images/puppy5.jpg",
+      "breed": "Pug"
+    },
+    {
+      "name": "Rocksta-e",
+      "breed": "Labrador",
+      "owner": "Ricky",
+      "image": "/images/puppy7.jpg",
+      "id": 3
+    },
+    {
+      "name": "Tobi",
+      "breed": "Labrador",
+      "owner": "Brianna",
+      "image": "/images/puppy6.jpg",
+      "id": 4
+    },
+    {
+      "name": "Fido1",
+      "breed": "Labrador",
+      "owner": "Fred",
+      "image": "/images/puppy1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Magnum GUnna",
+      "breed": "Rottweiler",
+      "owner": "Michael",
+      "image": "/images/puppy3.jpg",
+      "id": 6
+    },
+    {
+      "name": "Sadie2",
+      "breed": "Labrador",
+      "owner": "Sam",
+      "image": "/images/puppy4.jpg",
+      "id": 7
+    }
+  ]
+}

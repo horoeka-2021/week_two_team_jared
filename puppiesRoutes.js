@@ -1,3 +1,6 @@
+// MAYBE leave this file here for a while until we have a bug free app running on local host. 
+// We can refer back to this code if needed as we work on new routes.
+
 const express = require('express')
 const utils = require('./utils')
 // const { stringify } = require('querystring')

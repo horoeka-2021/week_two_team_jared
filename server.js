@@ -7,6 +7,8 @@ const { getData } = require('./utils')
 
 // router requiring
 const puppiesRoutes = require('./puppiesRoutes')
+const catsRoutes = require('./catsRoutes')
+const birdsRoutes = require('./birdsRoutes')
 
 // defining server for index.js to use
 const server = express()
@@ -21,21 +23,23 @@ server.set('view engine', 'hbs')
 
 // Your routes/router(s) should go here
 server.use('/puppies', puppiesRoutes)
+server.use('/cats', catsRoutes)
+server.use('/birds', birdsRoutes)
 
 module.exports = server
 
 // Simple GET '/' route
 server.get('/', (req, res) => {
   // read the puppies data!'
-  const fileName = 'data.json'
+  const fileName = 'homepageBirds.json'
   getData(fileName, (err, parsedData) => {
     if (err) {
       res.status(500).send('Sorry, we could not find what you were looking for :(')
       return
     }
-    // console.log('working puppy image route: ', parsedData.puppies[0].image)
     const viewData = {
-      puppies: parsedData.puppies
+      // TODO: add desired viewData for home page
+      birds: parsedData.birds
     }
     res.render('home', viewData)
   })
