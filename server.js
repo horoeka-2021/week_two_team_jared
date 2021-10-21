@@ -44,3 +44,19 @@ server.get('/', (req, res) => {
     res.render('home', viewData)
   })
 })
+
+// Render about us page
+server.get('/about-us', (req, res) => {
+  const fileName = 'homepageBirds.json'
+  getData(fileName, (err, parsedData) => {
+    if (err) {
+      res.status(500).send('Sorry, we could not find what you were looking for :(')
+      return
+    }
+    const viewData = {
+      // TODO: add desired viewData for home page
+      birds: parsedData.birds
+    }
+    res.render('about-us', viewData)
+  })
+})
