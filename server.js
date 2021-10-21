@@ -6,7 +6,6 @@ const hbs = require('express-handlebars')
 const { getData } = require('./utils')
 
 // router requiring
-const puppiesRoutes = require('./puppiesRoutes')
 const catsRoutes = require('./catsRoutes')
 const birdsRoutes = require('./birdsRoutes')
 
@@ -22,7 +21,6 @@ server.engine('hbs', hbs({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 
 // Your routes/router(s) should go here
-server.use('/puppies', puppiesRoutes)
 server.use('/cats', catsRoutes)
 server.use('/birds', birdsRoutes)
 
@@ -30,7 +28,7 @@ module.exports = server
 
 // Simple GET '/' route
 server.get('/', (req, res) => {
-  // read the puppies data!'
+  // read data!'
   const fileName = 'homepageBirds.json'
   getData(fileName, (err, parsedData) => {
     if (err) {
@@ -38,7 +36,6 @@ server.get('/', (req, res) => {
       return
     }
     const viewData = {
-      // TODO: add desired viewData for home page
       birds: parsedData.birds
     }
     res.render('home', viewData)
@@ -54,7 +51,6 @@ server.get('/about-us', (req, res) => {
       return
     }
     const viewData = {
-      // TODO: add desired viewData for home page
       birds: parsedData.birds
     }
     res.render('about-us', viewData)
@@ -70,7 +66,6 @@ server.get('/nz-pests', (req, res) => {
       return
     }
     const viewData = {
-      // TODO: add desired viewData for home page
       birds: parsedData.birds
     }
     res.render('nz-pests', viewData)

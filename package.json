@@ -1,5 +1,5 @@
 {
-  "name": "pupparazzi",
+  "name": "team-jared",
   "version": "2.0.0",
   "description": "Challenge to learn server side rendering and callbacks",
   "main": "index.js",
@@ -11,13 +11,13 @@
     "lint": "eslint .",
     "test": "jest --watchAll"
   },
-  "homepage": "https://github.com/dev-academy-challenges/pupparazzi#readme",
+  "homepage": "https://team-jared.herokuapp.com/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-academy-challenges/pupparazzi.git"
+    "url": "git+https://github.com/horoeka-2021/week_two_team_jared.git"
   },
   "bugs": {
-    "url": "https://github.com/dev-academy-challenges/pupparazzi/issues"
+    "url": "https://github.com/horoeka-2021/week_two_team_jared/issues"
   },
   "eslintConfig": {
     "extends": "eda"

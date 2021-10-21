@@ -1,6 +1,5 @@
 const express = require('express')
 const utils = require('./utils')
-// const { stringify } = require('querystring')
 
 const router = express.Router()
 
@@ -45,7 +44,7 @@ router.get('/:id/edit', (req, res) => {
       return
     }
     const id = req.params.id
-    const catArray = parses.puppies
+    const catArray = parses.cats
     const catObject = catArray.find(element => element.id === Number(id))
     res.render('edit', catObject)
   })
@@ -57,7 +56,7 @@ router.post('/:id/edit', (req, res) => {
   const id = Number(req.params.id)
   newAnimal.id = id
 
-  // read in json file and locate puppy
+  // read in json file and locate cat
   const fileName = 'catData.json'
   utils.getData(fileName, (err, data) => {
     if (err) {
@@ -66,14 +65,12 @@ router.post('/:id/edit', (req, res) => {
     }
     const newArr = [...data.cats.filter(cat => cat.id !== id), newAnimal]
     const newData = { cats: newArr }
-    // console.log(newData)
 
     utils.editData('catData.json', newData, (err) => {
       if (err) {
         res.status(500).send('cat mods were not saved to file :(')
         return
       }
-      // console.log('succes?')
       res.redirect(`/cats/${id}`)
     })
   })
