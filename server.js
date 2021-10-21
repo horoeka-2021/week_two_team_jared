@@ -22,7 +22,7 @@ server.engine('hbs', hbs({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 
 // Your routes/router(s) should go here
-server.use('/puppies', puppiesRoutes)
+// server.use('/puppies', puppiesRoutes)
 server.use('/cats', catsRoutes)
 server.use('/birds', birdsRoutes)
 
