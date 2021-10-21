@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "North Island Robin",
       "image": "/images/birds/north-island-robin.jpg", 
       "fun-fact": "", 
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "South Island Robin",
       "image": "/images/birds/south-island-robin.jpg", 
       "fun-fact": "", 
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Kārearea",
       "image": "/images/birds/nz-falcon.jpg",
       "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.", 
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Silvereye",
       "image": "/images/birds/silvereye.jpg", 
       "fun-fact": "", 
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Takahē",
       "image": "/images/birds/takahe.jpg", 
       "fun-fact": "", 
@@ -239,7 +239,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Tomtit",
       "image": "/images/birds/tomtit.jpg", 
       "fun-fact": "", 
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Weka",
       "image": "/images/birds/weka.jpg", 
       "fun-fact": "", 
