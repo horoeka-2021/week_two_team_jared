@@ -1,0 +1,32 @@
+<form class="form" action="/cats/{{id}}/edit" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+  
+  <label for="owner" class="form-item">
+    Owner:
+    <input type="text" name="owner" value="{{owner}}">
+  </label>
+  
+  <label for="dangerLevel" class="form-item">
+    Danger Levels:
+    <input type="text" name="dangerLevel" value="{{dangerLevel}}">
+  </label>
+  
+  <label for="comments" class="form-item">
+    Comments:
+    <input type="text" name="comments" value="{{comments}}">
+  </label>
+
+  <label for="Location" class="form-item">
+    Location:
+    <input type="text" name="comments" value="{{location}}">
+  </label>
+
+  <input type="hidden" name="image" value="{{image}}">
+  
+  <br>
+  <input type="submit" name="" value="Submit">
+</form>

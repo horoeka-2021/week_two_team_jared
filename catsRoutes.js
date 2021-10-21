@@ -45,9 +45,9 @@ router.get('/:id/edit', (req, res) => {
       return
     }
     const id = req.params.id
-    const catArray = parses.puppies
+    const catArray = parses.cats
     const catObject = catArray.find(element => element.id === Number(id))
-    res.render('edit', catObject)
+    res.render('catEdit', catObject)
   })
 })
 

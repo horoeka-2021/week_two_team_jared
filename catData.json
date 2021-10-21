@@ -10,22 +10,26 @@
       "location": "Albert Park"
     },
     {
-      "id": 2,
-      "name": "Max",
-      "owner": "Matthew",
-      "image": "/images/cats/cat2.jpg",
-      "dangerLevel": "Low",
-      "comments": "Struggles to walk let alone chase birds, however, approach with caution as he likes to hit people",
-      "location": "Mt Eden"
+      "id": 3,
+      "name": "Mr Fudge Baller",
+      "owner": "Ricky",
+      "dangerLevel": "High",
+      "comments": [
+        "Mr Fudge Ball may look tired and lazy but when he sets his sights on a bird he will not rest until it is in his mouth."
+      ],
+      "image": "/images/cats/cat3.png",
+      "location": "One Tree Hill"
     },
     {
-      "id": 3,
-      "name": "Mr Fudge Ball",
-      "owner": "Ricky",
-      "image": "/images/cats/cat3.png",
-      "dangerLevel": "High",
-      "comments": "Mr Fudge Ball may look tired and lazy but when he sets his sights on a bird he will not rest until it is in his mouth.",
-      "location": "One Tree Hill"
+      "name": "Max",
+      "owner": "Matthew",
+      "dangerLevel": "Low",
+      "comments": [
+        "Struggles to walk let alone chase birds, however, approach with caution as he likes to hit people,Mt Eden",
+        "One Tree Hill"
+      ],
+      "image": "/images/cats/cat2.jpg",
+      "id": 2
     }
   ]
 }
