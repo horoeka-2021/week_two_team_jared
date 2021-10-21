@@ -3,17 +3,20 @@
     {
       "id": 1,
       "species": "Kiwi",
-      "image": "/images/birds/kiwi.jpg"
+      "image": "/images/birds/kiwi.jpg",
+      "fun-fact": "Kiwi are the only bird to have nostrils at the end of their bills."
     },
     {
       "id": 2,
       "species": "Bellbird",
-      "image": "/images/birds/bellbird.jpg"
+      "image": "/images/birds/bellbird.jpg",
+      "fun-fact": "A female bellbird is about the same weight as a kinder surpise egg."
     },
     {
       "id": 3,
       "name": "Fantail",
-      "image": "/images/birds/fantail.jpg"
+      "image": "/images/birds/fantail.jpg",
+      "fun-fact": ""
     },
     {
       "id": 4,
@@ -72,8 +75,9 @@
     },
     {
       "id": 14,
-      "name": "New Zealand Falcon",
-      "image": "/images/birds/nz-falcon.jpg"
+      "name": "Kārearea",
+      "image": "/images/birds/nz-falcon.jpg",
+      "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr."
     },
     {
       "id": 15,
