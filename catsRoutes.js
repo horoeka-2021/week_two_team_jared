@@ -31,7 +31,7 @@ router.get('/:id', (req, res) => {
     const id = req.params.id
     const catArray = parses.cats
     const catObject = catArray.find(element => element.id === Number(id))
-    res.render('details', catObject)
+    res.render('catDetails', catObject)
   })
 })
 
