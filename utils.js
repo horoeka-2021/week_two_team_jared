@@ -6,13 +6,13 @@ module.exports = {
   editData
 }
 
-function getData (callback) {
-  const filename = path.join(__dirname, 'data.json')
+function getData (fileName, callback) {
+  const pathName = path.join(__dirname, fileName)
 
-  fs.readFile(filename, 'utf8', (err, contents) => {
+  fs.readFile(pathName, 'utf8', (err, contents) => {
     if (err) {
       console.error(err.message)
-      callback(new Error('Unable to load the file'))
+      callback(new Error('Unable to read file'))
       return
     }
     try {

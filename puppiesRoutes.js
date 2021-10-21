@@ -1,7 +1,5 @@
 const express = require('express')
-const path = require('path')
-const fs = require('fs')
-const puppies = require('./utils')
+const utils = require('./utils')
 // const { stringify } = require('querystring')
 
 const router = express.Router()
@@ -9,7 +7,8 @@ const router = express.Router()
 module.exports = router
 
 router.get('/:id', (req, res) => {
-  puppies.getData((err, parses) => {
+  const fileName = 'data.json'
+  utils.getData(fileName, (err, parses) => {
     if (err) {
       res.status(500).send('woof woof where are you?')
       return
@@ -24,7 +23,8 @@ router.get('/:id', (req, res) => {
 
 // edit route
 router.get('/:id/edit', (req, res) => {
-  puppies.getData((err, parses) => {
+  const fileName = 'data.json'
+  utils.getData(fileName, (err, parses) => {
     if (err) {
       res.status(500).send('woof woof where are you?')
       return
@@ -39,21 +39,22 @@ router.get('/:id/edit', (req, res) => {
 
 // post route for edit
 router.post('/:id/edit', (req, res) => {
-  const newPuppy = req.body
+  const newAnimal = req.body
   const id = Number(req.params.id)
-  newPuppy.id = id
+  newAnimal.id = id
 
   // read in json file and locate puppy
-  puppies.getData((err, data) => {
+  const fileName = 'data.json'
+  utils.getData(fileName, (err, data) => {
     if (err) {
       res.status(500).send('woof woof where are you?')
       return
     }
-    const newArr = [...data.puppies.filter(puppy => puppy.id !== id), newPuppy]
+    const newArr = [...data.puppies.filter(puppy => puppy.id !== id), newAnimal]
     const newData = { puppies: newArr }
     // console.log(newData)
 
-    puppies.editData('data.json', newData, (err) => {
+    utils.editData('data.json', newData, (err) => {
       if (err) {
         res.status(500).send('Puppy mods were not saved to file :(')
         return

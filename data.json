@@ -8,20 +8,6 @@
       "breed": "Labrador"
     },
     {
-      "id": 3,
-      "name": "Magnum",
-      "owner": "Michael",
-      "image": "/images/puppy3.jpg",
-      "breed": "Rottweiler"
-    },
-    {
-      "id": 4,
-      "name": "Sadie",
-      "owner": "Sam",
-      "image": "/images/puppy4.jpg",
-      "breed": "Labrador"
-    },
-    {
       "id": 5,
       "name": "Murphy",
       "owner": "Matthew",
@@ -48,6 +34,20 @@
       "owner": "Fred",
       "image": "/images/puppy1.jpg",
       "id": 1
+    },
+    {
+      "name": "Magnum GUnna",
+      "breed": "Rottweiler",
+      "owner": "Michael",
+      "image": "/images/puppy3.jpg",
+      "id": 3
+    },
+    {
+      "name": "Sadie2",
+      "breed": "Labrador",
+      "owner": "Sam",
+      "image": "/images/puppy4.jpg",
+      "id": 4
     }
   ]
 }

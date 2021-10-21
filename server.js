@@ -27,9 +27,10 @@ module.exports = server
 // Simple GET '/' route
 server.get('/', (req, res) => {
   // read the puppies data!'
-  getData((err, parsedData) => {
+  const fileName = 'data.json'
+  getData(fileName, (err, parsedData) => {
     if (err) {
-      res.status(500).send('woof woof where are you?')
+      res.status(500).send('Sorry, we could not find what you were looking for :(')
       return
     }
     // console.log('working puppy image route: ', parsedData.puppies[0].image)
