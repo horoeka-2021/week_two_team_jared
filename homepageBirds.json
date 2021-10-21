@@ -5,6 +5,7 @@
       "species": "Kiwi",
       "image": "/images/birds/kiwi.jpg",
       "fun-fact": "Kiwi are the only bird to have nostrils at the end of their bills.", 
+      "learn-more": "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
       "sightings": [
         {
           "sighting-id": "",
@@ -19,6 +20,7 @@
       "species": "Bellbird",
       "image": "/images/birds/bellbird.jpg",
       "fun-fact": "A female bellbird is about the same weight as a kinder surpise egg.",
+      "learn-more": "https://www.nzbirdsonline.org.nz/species/bellbird",
       "sightings": [
         {
           "sighting-id": "",
@@ -32,7 +34,8 @@
       "id": 3,
       "name": "Fantail",
       "image": "/images/birds/fantail.jpg",
-      "fun-fact": "", 
+      "fun-fact": "Fantails mainly eat small invertebrates, such as moths, flies, beetles and spiders.", 
+      "learn-more": "https://www.nzbirdsonline.org.nz/species/new-zealand-fantail",
       "sightings": [
         {
           "sighting-id": "",
@@ -46,7 +49,8 @@
       "id": 4,
       "name": "Kea",
       "image": "/images/birds/kea.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "Kea are the only true alplie parrots in the world.", 
+      "learn-more": "https://nzbirdsonline.org.nz/?q=node/472",
       "sightings": [
         {
           "sighting-id": "",
@@ -60,7 +64,8 @@
       "id": 5,
       "name": "Kingfisher",
       "image": "/images/birds/kingfisher.png", 
-      "fun-fact": "", 
+      "fun-fact": "Kingfishers close their eyes as they dive into the water, so they are fishing blind! ", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/sacred-kingfisher",
       "sightings": [
         {
           "sighting-id": "",
@@ -74,7 +79,8 @@
       "id": 6,
       "name": "Tui",
       "image": "/images/birds/tui.jpg", 
-      "fun-fact": "",
+      "fun-fact": "Tui have two voice boxes.",
+      "learn-more": "https://www.nzbirdsonline.org.nz/species/tui",
       "sightings": [
         {
           "sighting-id": "",
@@ -88,7 +94,8 @@
       "id": 7,
       "name": "Black Robin",
       "image": "/images/birds/black-robin.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "The introduction of threats has almost eliminated this species.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/black-robin",
       "sightings": [
         {
           "sighting-id": "",
@@ -102,7 +109,8 @@
       "id": 8,
       "name": "Blue Duck",
       "image": "/images/birds/blue-duck.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "South Island Blue Ducks are uniformly larger than North Island ones.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/blue-duck",
       "sightings": [
         {
           "sighting-id": "",
@@ -116,7 +124,8 @@
       "id": 9,
       "name": "Kākā",
       "image": "/images/birds/Kākā.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "These birds are named after the noise they make while flying over forests.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/kaka",
       "sightings": [
         {
           "sighting-id": "",
@@ -130,7 +139,8 @@
       "id": 10,
       "name": "Kākāpō",
       "image": "/images/birds/Kākāpō.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "Kākāpō won Bird of the Year in 2020", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/kakapo",
       "sightings": [
         {
           "sighting-id": "",
@@ -144,7 +154,8 @@
       "id": 11,
       "name": "Little Blue Penguin",
       "image": "/images/birds/little-blue-penguin.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "This is the smallest species of penguin in the world.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/little-penguin",
       "sightings": [
         {
           "sighting-id": "",
@@ -158,21 +169,8 @@
       "id": 12,
       "name": "Morepork",
       "image": "/images/birds/morepork.jpg", 
-      "fun-fact": "", 
-      "sightings": [
-        {
-          "sighting-id": "",
-          "date": "",
-          "location": "",
-          "number of birds": ""
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "North Island Robin",
-      "image": "/images/birds/north-island-robin.jpg", 
-      "fun-fact": "", 
+      "fun-fact": "The Morepork is the only remaining native owl speices found in NZ.", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/morepork",
       "sightings": [
         {
           "sighting-id": "",
@@ -184,9 +182,10 @@
     },
     {
       "id": 13,
-      "name": "South Island Robin",
-      "image": "/images/birds/south-island-robin.jpg", 
-      "fun-fact": "", 
+      "name": "North Island Robin",
+      "image": "/images/birds/north-island-robin.jpg", 
+      "fun-fact": "This species was extinct in the lower North Island until 76 birds were transferred to Zealandia (a bird sanctuary) from Kapiti Island in 2001 and 2002.",
+      "learn-more": "https://nzbirdsonline.org.nz/species/north-island-robin", 
       "sightings": [
         {
           "sighting-id": "",
@@ -198,9 +197,10 @@
     },
     {
       "id": 14,
-      "name": "Kārearea",
-      "image": "/images/birds/nz-falcon.jpg",
-      "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.", 
+      "name": "South Island Robin",
+      "image": "/images/birds/south-island-robin.jpg", 
+      "fun-fact": "", 
+      "learn-more": "",
       "sightings": [
         {
           "sighting-id": "",
@@ -212,9 +212,10 @@
     },
     {
       "id": 15,
-      "name": "Silvereye",
-      "image": "/images/birds/silvereye.jpg", 
-      "fun-fact": "", 
+      "name": "Kārearea",
+      "image": "/images/birds/nz-falcon.jpg",
+      "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.", 
+      "learn-more": "",
       "sightings": [
         {
           "sighting-id": "",
@@ -226,9 +227,10 @@
     },
     {
       "id": 16,
-      "name": "Takahē",
-      "image": "/images/birds/takahe.jpg", 
+      "name": "Silvereye",
+      "image": "/images/birds/silvereye.jpg", 
       "fun-fact": "", 
+      "learn-more": "",
       "sightings": [
         {
           "sighting-id": "",
@@ -240,9 +242,10 @@
     },
     {
       "id": 17,
-      "name": "Tomtit",
-      "image": "/images/birds/tomtit.jpg", 
+      "name": "Takahē",
+      "image": "/images/birds/takahe.jpg", 
       "fun-fact": "", 
+      "learn-more": "",
       "sightings": [
         {
           "sighting-id": "",
@@ -254,9 +257,25 @@
     },
     {
       "id": 18,
+      "name": "Tomtit",
+      "image": "/images/birds/tomtit.jpg", 
+      "fun-fact": "", 
+      "learn-more": "",
+      "sightings": [
+        {
+          "sighting-id": "",
+          "date": "",
+          "location": "",
+          "number of birds": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
       "name": "Weka",
       "image": "/images/birds/weka.jpg", 
       "fun-fact": "", 
+      "learn-more": "",
       "sightings": [
         {
           "sighting-id": "",
