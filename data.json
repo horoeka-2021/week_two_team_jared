@@ -29,13 +29,6 @@
       "id": 6
     },
     {
-      "name": "Fido1",
-      "breed": "Labrador",
-      "owner": "Fred",
-      "image": "/images/puppy1.jpg",
-      "id": 1
-    },
-    {
       "name": "Magnum GUnna",
       "breed": "Rottweiler",
       "owner": "Michael",
@@ -48,6 +41,13 @@
       "owner": "Sam",
       "image": "/images/puppy4.jpg",
       "id": 4
+    },
+    {
+      "name": "Fido1",
+      "breed": "Labrador",
+      "owner": "Fred",
+      "image": "/images/puppy1.jpg",
+      "id": 1
     }
   ]
 }

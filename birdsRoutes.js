@@ -7,7 +7,7 @@ const router = express.Router()
 module.exports = router
 
 router.get('/:id', (req, res) => {
-  const fileName = 'birdData.json'
+  const fileName = 'homepageBirds.json'
   utils.getData(fileName, (err, parses) => {
     if (err) {
       res.status(500).send('Sorry we could not find what you were looking for')
@@ -16,7 +16,7 @@ router.get('/:id', (req, res) => {
     const id = req.params.id
     const birdArray = parses.birds
     const birdObject = birdArray.find(element => element.id === Number(id))
-    res.render('details', birdObject)
+    res.render('bird-details', birdObject)
   })
 })
 
