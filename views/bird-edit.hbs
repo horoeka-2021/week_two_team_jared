@@ -1,16 +1,13 @@
 <form>  
-<label> Select the bird species you identified from the dropdown list:</label>  
-<select id="dropdown-list" >  
-<option> --- Choose Species --- </option>  
-{{#each birds}}
-<option>
-{{species}}
-</option>
-{{/each}}
-</select>  
-
-<label class="form-item">How many did you see? </label>
-<input type="text" name="quantity" value="{{quantity}}">
+  <label> Select the bird species you identified from the dropdown list:</label>  
+  <select id="dropdown-list" >  
+    <option> --- Choose Species --- </option>  
+    {{#each birds}}
+      <option>{{species}}</option>
+    {{/each}}
+  </select>  
+  <label class="form-item">How many did you see? </label>
+  <input type="text" name="quantity" value="{{quantity}}">
 </form>
 
 
