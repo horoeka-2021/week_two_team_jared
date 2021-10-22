@@ -70,6 +70,11 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  text-align: center;
+}
+
+.ceo {
+  color: grey;
 }
 
 .img-circle {
