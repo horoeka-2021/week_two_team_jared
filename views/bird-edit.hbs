@@ -1,16 +1,30 @@
+<h2>Bird Sighting Form</h2>
 <form>  
-<label> Select the bird species you identified from the dropdown list:</label>  
-<select id="dropdown-list" >  
-<option> --- Choose Species --- </option>  
-{{#each birds}}
-<option>
-{{species}}
-</option>
-{{/each}}
-</select>  
+  <label> Select the bird species you identified from the dropdown list:</label>  
+  <select id="dropdown-list" >  
+  <option> --- Choose Species --- </option>  
+  {{#each birds}}
+  <option>
+  {{species}}
+  </option>
+  {{/each}}
+  </select>  
 
-<label class="form-item">How many did you see? </label>
-<input type="text" name="quantity" value="{{quantity}}">
+<br>
+  <label class="form-item">Date: </label> 
+  <input type="text">
+
+<br>
+<label class="form-item">Location: </label> 
+<input type="text">
+
+<br>
+  <label class="form-item">How many did you see? </label> 
+  <input type="text" name="quantity" value="{{quantity}}">
+
+<br>
+  <label class="form-item">Comments: </label>
+  <input type="text">
 </form>
 
 
