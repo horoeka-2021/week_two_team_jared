@@ -10,15 +10,9 @@
   <a href="/cats/{{cats.id}}/edit">Edit</a>
 </div>
 
-<div class="sightings">
+<div>
   <h3>Bird Sightings at the Same Location</h3>
-  <table>
-    {{#each birds}}
-    <tr>
-      <td>{{species}}</td>
-    </tr>
-    {{/each}}
-
-  </table>
-
+  {{#each birds}}
+    <p>{{species}}</p>
+  {{/each}}
 </div>

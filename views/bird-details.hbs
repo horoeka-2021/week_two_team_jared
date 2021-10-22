@@ -1,17 +1,28 @@
 <div class="bird">
-  <img class="img-circle" src="{{image}}" alt="{{name}}">
-  <h2>This is the {{species}}. </h2>
-  <div>Fun fact: {{fun-fact}}</div>
-  <div>Learn more about the <a href="{{learn-more}}">{{species}}</a></div>
-</div>
-<h3 class="center" > Recent Sightings for the {{species}}: </h3>
+  <h2>{{bird.name}}</h2>
+  <img class="img-circle" src="{{bird.image}}" alt="{{bird.name}}">
+  <h2>This is the {{bird.species}}. </h2>
+  <div>Fun fact: {{bird.fun-fact}}</div>
+  <div>Learn more about the <a href="{{bird.learn-more}}">{{bird.species}}</a></div>
+
+<h3 class="center" > Recent Sightings for the {{bird.species}}: </h3>
 <div class="container" >
   <p class="bird-sightings">
-  {{#each sightings}}
+  {{#each bird.sightings}}
     Date: {{date}} <br>
     Location: {{location}} <br>
-    Number of birds: {{quantity}} <br>
+    Number of sightingss: {{quantity}} <br>
     Any comments: {{comments}}
   {{/each}}
   </p>
+</div>
+
+  <div >
+    <h3>Cat Sightings at the Same Location</h3>
+    <div>
+      {{#each cats}}
+        <p>{{name}}</p>
+      {{/each}}
+    </div>
+  </div>
 </div>

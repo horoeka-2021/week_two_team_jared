@@ -13,7 +13,6 @@ router.get('/sightings', (req, res) => {
       res.status(500).send('Sorry we could not find what you were looking for')
       return
     }
-    console.log(parsedData)
     const viewData = {
       cats: parsedData.cats
     }
@@ -60,7 +59,6 @@ router.post('/registering', (req, res) => {
         res.status(500).send('cat mods were not saved to file :(')
         return
       }
-      // console.log('succes?')
       res.redirect(`/cats/${id + 1}`)
     })
   })
@@ -93,9 +91,10 @@ router.get('/:id', (req, res) => {
 
       const viewData = {
         cats: catObject,
+        
         birds: birdsAtLocation
       }
-
+      
       res.render('cat-details', viewData)
     })
   })
@@ -112,8 +111,6 @@ router.get('/:id/edit', (req, res) => {
     const id = req.params.id
     const catObject = parseCats.cats.find(element => element.id === Number(id))
     const catLocation = catObject.location
-    console.log(catObject)
-    console.log(catLocation)
     
     const viewData = {
       cats: catObject,
