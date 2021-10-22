@@ -1,6 +1,21 @@
-<h1>This is the bird sighting log page</h1>
+<form>  
+<label> Select the bird species you identified from the dropdown list:</label>  
+<select id="dropdown-list" >  
+<option> --- Choose Species --- </option>  
+{{#each birds}}
+<option>
+{{species}}
+</option>
+{{/each}}
+</select>  
+
+<label class="form-item">How many did you see? </label>
+<input type="text" name="quantity" value="{{quantity}}">
+</form>
+
+
+{{!-- 
 <form class="form" action="/bird/add-sighting" method="post">
-  <img class="img-circle" src="{{image}}" alt="{{name}}">
   <label for="name" class="form-item">
     Name:
     <input type="text" name="name" value="{{name}}">
@@ -19,4 +34,4 @@
   <input type="hidden" name="image" value="{{image}}">
   
   <input type="submit" name="" value="Submit">
-</form>
+{{!-- </form> --}} 

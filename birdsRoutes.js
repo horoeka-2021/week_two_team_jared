@@ -11,7 +11,8 @@ router.get('/add-sighting', (req, res) => {
       res.status(500).send('Sorry we could not find what you were looking for')
       return
     }
-    const viewData = parses.birds
+    const viewData = parses
+    console.log(viewData)
     res.render('bird-edit', viewData)
   })
 })
