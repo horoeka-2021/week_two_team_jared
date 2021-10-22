@@ -7,6 +7,20 @@
       "fun-fact": "Kiwi are the only bird to have nostrils at the end of their bills.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
       "sightings": [
+        {
+          "species": "Kiwi",
+          "date": "October 2, 2021",
+          "location": "One Tree Hill",
+          "quantity": "1",
+          "comments": "Very pretty"
+        },
+        {
+          "species": "Kiwi",
+          "date": "April 23, 2010",
+          "location": "Mount Eden",
+          "quantity": "3",
+          "comments": "It was a bit dark"
+        }
       ]
     },
     {
@@ -16,6 +30,13 @@
       "fun-fact": "A female bellbird is about the same weight as a kinder surpise egg.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/bellbird",
       "sightings": [
+        {
+          "species": "Bellbird",
+          "date": "March 18, 2020",
+          "location": "Albert Park",
+          "quantity": "6",
+          "comments": ""
+        }
       ]
     },
     {
@@ -25,6 +46,13 @@
       "fun-fact": "Fantails mainly eat small invertebrates, such as moths, flies, beetles and spiders.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/new-zealand-fantail",
       "sightings": [
+        {
+          "species": "Fantail",
+          "date": "May 12, 2019",
+          "location": "One Tree Hill",
+          "quantity": "1",
+          "comments": "He was an angry fella"
+        }
       ]
     },
     {
@@ -34,6 +62,13 @@
       "fun-fact": "Kea are the only true alplie parrots in the world.",
       "learn-more": "https://nzbirdsonline.org.nz/?q=node/472",
       "sightings": [
+        {
+          "species": "Kea",
+          "date": "Today",
+          "location": "Fiordland",
+          "quantity": "3",
+          "comments": ""
+        }
       ]
     },
     {
@@ -43,6 +78,13 @@
       "fun-fact": "Kingfishers close their eyes as they dive into the water, so they are fishing blind! ",
       "learn-more": "https://nzbirdsonline.org.nz/species/sacred-kingfisher",
       "sightings": [
+        {
+          "species": "Kingfisher",
+          "date": "June 13, 2021",
+          "location": "Albert Park",
+          "quantity": "2",
+          "comments": ""
+        }
       ]
     },
     {
@@ -52,6 +94,13 @@
       "fun-fact": "Tui have two voice boxes.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/tui",
       "sightings": [
+        {
+          "species": "Tui",
+          "date": "August 8, 2013",
+          "location": "Albert Park",
+          "quantity": "8",
+          "comments": "All in one tree!"
+        }
       ]
     },
     {
@@ -61,6 +110,13 @@
       "fun-fact": "The introduction of threats has almost eliminated this species.",
       "learn-more": "https://nzbirdsonline.org.nz/species/black-robin",
       "sightings": [
+        {
+          "species": "Black Robin",
+          "date": "March 18, 2020",
+          "location": "One Tree Hill",
+          "quantity": "6",
+          "comments": ""
+        }
       ]
     },
     {
@@ -70,6 +126,13 @@
       "fun-fact": "South Island Blue Ducks are uniformly larger than North Island ones.",
       "learn-more": "https://nzbirdsonline.org.nz/species/blue-duck",
       "sightings": [
+        {
+          "species": "Blue Duck",
+          "date": "June 13, 2021",
+          "location": "Northland",
+          "quantity": "2",
+          "comments": ""
+        }
       ]
     },
     {
@@ -79,6 +142,13 @@
       "fun-fact": "These birds are named after the noise they make while flying over forests.",
       "learn-more": "https://nzbirdsonline.org.nz/species/kaka",
       "sightings": [
+        {
+          "species": "Kākā",
+          "date": "April 23, 2010",
+          "location": "One Tree Hill",
+          "quantity": "3",
+          "comments": ""
+        }
       ]
     },
     {
@@ -88,6 +158,13 @@
       "fun-fact": "Kākāpō won Bird of the Year in 2020",
       "learn-more": "https://nzbirdsonline.org.nz/species/kakapo",
       "sightings": [
+        {
+          "species": "Kākāpō",
+          "date": "October 22, 2019",
+          "location": "Mount Eden",
+          "quantity": "1",
+          "comments": ""
+        }
       ]
     },
     {
@@ -97,6 +174,13 @@
       "fun-fact": "This is the smallest species of penguin in the world.",
       "learn-more": "https://nzbirdsonline.org.nz/species/little-penguin",
       "sightings": [
+        {
+          "species": "Little Blue Penguin",
+          "date": "Today",
+          "location": "Dunedin",
+          "quantity": "83",
+          "comments": ""
+        }
       ]
     },
     {
@@ -106,6 +190,13 @@
       "fun-fact": "The Morepork is the only remaining native owl speices found in NZ.",
       "learn-more": "https://nzbirdsonline.org.nz/species/morepork",
       "sightings": [
+        {
+          "species": "Morepork",
+          "date": "October 2, 2021",
+          "location": "Wellington",
+          "quantity": "3",
+          "comments": ""
+        }
       ]
     },
     {
@@ -115,6 +206,13 @@
       "fun-fact": "This species was extinct in the lower North Island until 76 birds were transferred to Zealandia (a bird sanctuary) from Kapiti Island in 2001 and 2002.",
       "learn-more": "https://nzbirdsonline.org.nz/species/north-island-robin",
       "sightings": [
+        {
+          "species": "North Island Robin",
+          "date": "September 12, 2010",
+          "location": "Albert Park",
+          "quantity": "3",
+          "comments": ""
+        }
       ]
     },
     {
@@ -124,6 +222,13 @@
       "fun-fact": "South Island Robins are  sparsely distributed through the South Island and Stewart Island/Rakiura, although the distribution is not continuous.",
       "learn-more": "https://nzbirdsonline.org.nz/species/south-island-robin",
       "sightings": [
+        {
+          "species": "South Island Robin",
+          "date": "January 14, 2016",
+          "location": "Christchurch",
+          "quantity": "2",
+          "comments": ""
+        }
       ]
     },
     {
@@ -133,6 +238,13 @@
       "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.",
       "learn-more": "https://nzbirdsonline.org.nz/species/new-zealand-falcon",
       "sightings": [
+        {
+          "species": "Kārearea",
+          "date": "March 18, 2020",
+          "location": "Mount Eden",
+          "quantity": "1",
+          "comments": ""
+        }
       ]
     },
     {
@@ -141,8 +253,7 @@
       "image": "/images/birds/silvereye.jpg",
       "fun-fact": "These birds colonised New Zealand from Australia in the 1850s.",
       "learn-more": "https://nzbirdsonline.org.nz/species/silvereye",
-      "sightings": [
-      ]
+      "sightings": []
     },
     {
       "id": 17,
@@ -151,6 +262,13 @@
       "fun-fact": "The South Island Takahē are the only remaining Takahē in New Zealand.",
       "learn-more": "https://nzbirdsonline.org.nz/species/south-island-takahe",
       "sightings": [
+        {
+          "species": "Takahē",
+          "date": "May 4, 2021",
+          "location": "One Tree Hill",
+          "quantity": "8",
+          "comments": ""
+        }
       ]
     },
     {
@@ -166,6 +284,13 @@
           "location": "Mount Eden",
           "quantity": "3",
           "comments": ""
+        },
+        {
+          "species": "Tomtit",
+          "date": "October 31, 2021",
+          "location": "Albert Park",
+          "quantity": "13",
+          "comments": ""
         }
       ]
     },
@@ -176,6 +301,13 @@
       "fun-fact": "The Weka are one of New Zealand's largest flightless birds; their population numbers are cyclic with expansion and decline.",
       "learn-more": "https://nzbirdsonline.org.nz/species/weka",
       "sightings": [
+        {
+          "species": "Weka",
+          "date": "June 3, 2021",
+          "location": "Albert Park",
+          "quantity": "2",
+          "comments": "Pretty pretty birdies"
+        }
       ]
     }
   ]
