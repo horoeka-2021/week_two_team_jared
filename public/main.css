@@ -44,6 +44,18 @@ body {
   margin: 50px;
 }
 
+.center {
+  text-align: center;
+}
+
+.bird-sightings {
+  padding: 2%;
+  margin: 2%;
+  font-size: medium;
+  border: #228B22;
+  border-width: 0.5%;
+}
+
 .cat-list {
   display: flex;
   flex-direction: column;
@@ -70,6 +82,11 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  text-align: center;
+}
+
+.ceo {
+  color: grey;
 }
 
 .img-circle {
