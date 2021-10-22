@@ -4,13 +4,14 @@
   <h2>This is the {{bird.species}}. </h2>
   <div>Fun fact: {{bird.fun-fact}}</div>
   <div>Learn more about the <a href="{{bird.learn-more}}">{{bird.species}}</a></div>
-</div>
+  
+  <div >
+    <h3>Cat Sightings at the Same Location</h3>
+    <div>
+      {{#each cats}}
+        <p>{{name}}</p>
+      {{/each}}
+    </div>
+  </div>
 
-<div class="container">
-  <h3>Bird Sightings at the Same Location</h3>
-  <dvi class="container">
-    {{#each cat}}
-      <p>{{name}}</p>
-    {{/each}}
-  </dvi>
 </div>

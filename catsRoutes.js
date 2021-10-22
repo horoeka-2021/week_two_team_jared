@@ -91,9 +91,10 @@ router.get('/:id', (req, res) => {
 
       const viewData = {
         cats: catObject,
+        
         birds: birdsAtLocation
       }
-
+      
       res.render('cat-details', viewData)
     })
   })

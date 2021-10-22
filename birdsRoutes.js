@@ -77,13 +77,11 @@ router.get('/:id', (req, res) => {
         return birdLocations.includes(cat.location)
       })
 
-      console.log(catsAtLocation);
-
       const viewData = {
         cats: catsAtLocation,
         bird: birdObject
       }
-
+      
       res.render('bird-details', viewData)
     }) 
   })
