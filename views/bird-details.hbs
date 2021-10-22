@@ -1,6 +1,16 @@
 <div class="bird">
-  <img class="img-circle" src="{{image}}" alt="{{name}}">
-  <h2>This is the {{species}}. </h2>
-  <div>Fun fact: {{fun-fact}}</div>
-  <div>Learn more about the <a href="{{learn-more}}">{{species}}</a></div>
+  <h2>{{bird.name}}</h2>
+  <img class="img-circle" src="{{bird.image}}" alt="{{birdname}}">
+  <h2>This is the {{bird.species}}. </h2>
+  <div>Fun fact: {{bird.fun-fact}}</div>
+  <div>Learn more about the <a href="{{bird.learn-more}}">{{bird.species}}</a></div>
+</div>
+
+<div class="container">
+  <h3>Bird Sightings at the Same Location</h3>
+  <dvi class="container">
+    {{#each cat}}
+      <p>{{name}}</p>
+    {{/each}}
+  </dvi>
 </div>

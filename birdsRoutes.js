@@ -54,16 +54,38 @@ router.post('/add-sighting', (req, res) => {
 })
 
 router.get('/:id', (req, res) => {
-  const fileName = 'homepageBirds.json'
-  utils.getData(fileName, (err, parses) => {
+  const birdFileName = 'homepageBirds.json'
+  utils.getData(birdFileName, (err, parsedBirds) => {
     if (err) {
       res.status(500).send('Sorry we could not find what you were looking for')
       return
     }
     const id = req.params.id
-    const birdArray = parses.birds
-    const birdObject = birdArray.find(element => element.id === Number(id))
-    res.render('bird-details', birdObject)
+    const birdObject = parsedBirds.birds.find(element => element.id === Number(id))
+    
+    const catFileName = 'catData.json'
+    utils.getData(catFileName, (err, parsedCats) => {
+      if (err) {
+        res.status(500).send('Sorry we could not find what you were looking for')
+        return
+      }
+      
+      const birdLocations = birdObject.sightings.map(sighting => {
+          return sighting.location
+        })
+      const catsAtLocation = parsedCats.cats.filter(cat => {
+        return birdLocations.includes(cat.location)
+      })
+
+      console.log(catsAtLocation);
+
+      const viewData = {
+        cats: catsAtLocation,
+        bird: birdObject
+      }
+
+      res.render('bird-details', viewData)
+    }) 
   })
 })
 
