@@ -4,7 +4,7 @@
       "id": 1,
       "species": "Kiwi",
       "image": "/images/birds/kiwi.jpg",
-      "fun-fact": "Kiwi are the only bird to have nostrils at the end of their bills.", 
+      "fun-fact": "Kiwi are the only bird to have nostrils at the end of their bills.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
       "sightings": [
         {
@@ -34,7 +34,7 @@
       "id": 3,
       "species": "Fantail",
       "image": "/images/birds/fantail.jpg",
-      "fun-fact": "Fantails mainly eat small invertebrates, such as moths, flies, beetles and spiders.", 
+      "fun-fact": "Fantails mainly eat small invertebrates, such as moths, flies, beetles and spiders.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/new-zealand-fantail",
       "sightings": [
         {
@@ -48,8 +48,8 @@
     {
       "id": 4,
       "species": "Kea",
-      "image": "/images/birds/kea.jpg", 
-      "fun-fact": "Kea are the only true alplie parrots in the world.", 
+      "image": "/images/birds/kea.jpg",
+      "fun-fact": "Kea are the only true alplie parrots in the world.",
       "learn-more": "https://nzbirdsonline.org.nz/?q=node/472",
       "sightings": [
         {
@@ -63,8 +63,8 @@
     {
       "id": 5,
       "species": "Kingfisher",
-      "image": "/images/birds/kingfisher.png", 
-      "fun-fact": "Kingfishers close their eyes as they dive into the water, so they are fishing blind! ", 
+      "image": "/images/birds/kingfisher.png",
+      "fun-fact": "Kingfishers close their eyes as they dive into the water, so they are fishing blind! ",
       "learn-more": "https://nzbirdsonline.org.nz/species/sacred-kingfisher",
       "sightings": [
         {
@@ -78,7 +78,7 @@
     {
       "id": 6,
       "species": "Tui",
-      "image": "/images/birds/tui.jpg", 
+      "image": "/images/birds/tui.jpg",
       "fun-fact": "Tui have two voice boxes.",
       "learn-more": "https://www.nzbirdsonline.org.nz/species/tui",
       "sightings": [
@@ -93,8 +93,8 @@
     {
       "id": 7,
       "species": "Black Robin",
-      "image": "/images/birds/black-robin.jpg", 
-      "fun-fact": "The introduction of threats has almost eliminated this species.", 
+      "image": "/images/birds/black-robin.jpg",
+      "fun-fact": "The introduction of threats has almost eliminated this species.",
       "learn-more": "https://nzbirdsonline.org.nz/species/black-robin",
       "sightings": [
         {
@@ -108,8 +108,8 @@
     {
       "id": 8,
       "species": "Blue Duck",
-      "image": "/images/birds/blue-duck.jpg", 
-      "fun-fact": "South Island Blue Ducks are uniformly larger than North Island ones.", 
+      "image": "/images/birds/blue-duck.jpg",
+      "fun-fact": "South Island Blue Ducks are uniformly larger than North Island ones.",
       "learn-more": "https://nzbirdsonline.org.nz/species/blue-duck",
       "sightings": [
         {
@@ -123,8 +123,8 @@
     {
       "id": 9,
       "species": "Kākā",
-      "image": "/images/birds/Kākā.jpg", 
-      "fun-fact": "These birds are named after the noise they make while flying over forests.", 
+      "image": "/images/birds/Kākā.jpg",
+      "fun-fact": "These birds are named after the noise they make while flying over forests.",
       "learn-more": "https://nzbirdsonline.org.nz/species/kaka",
       "sightings": [
         {
@@ -138,8 +138,8 @@
     {
       "id": 10,
       "species": "Kākāpō",
-      "image": "/images/birds/Kākāpō.jpg", 
-      "fun-fact": "Kākāpō won Bird of the Year in 2020", 
+      "image": "/images/birds/Kākāpō.jpg",
+      "fun-fact": "Kākāpō won Bird of the Year in 2020",
       "learn-more": "https://nzbirdsonline.org.nz/species/kakapo",
       "sightings": [
         {
@@ -153,8 +153,8 @@
     {
       "id": 11,
       "species": "Little Blue Penguin",
-      "image": "/images/birds/little-blue-penguin.jpg", 
-      "fun-fact": "This is the smallest species of penguin in the world.", 
+      "image": "/images/birds/little-blue-penguin.jpg",
+      "fun-fact": "This is the smallest species of penguin in the world.",
       "learn-more": "https://nzbirdsonline.org.nz/species/little-penguin",
       "sightings": [
         {
@@ -168,8 +168,8 @@
     {
       "id": 12,
       "species": "Morepork",
-      "image": "/images/birds/morepork.jpg", 
-      "fun-fact": "The Morepork is the only remaining native owl speices found in NZ.", 
+      "image": "/images/birds/morepork.jpg",
+      "fun-fact": "The Morepork is the only remaining native owl speices found in NZ.",
       "learn-more": "https://nzbirdsonline.org.nz/species/morepork",
       "sightings": [
         {
@@ -183,9 +183,9 @@
     {
       "id": 13,
       "species": "North Island Robin",
-      "image": "/images/birds/north-island-robin.jpg", 
+      "image": "/images/birds/north-island-robin.jpg",
       "fun-fact": "This species was extinct in the lower North Island until 76 birds were transferred to Zealandia (a bird sanctuary) from Kapiti Island in 2001 and 2002.",
-      "learn-more": "https://nzbirdsonline.org.nz/species/north-island-robin", 
+      "learn-more": "https://nzbirdsonline.org.nz/species/north-island-robin",
       "sightings": [
         {
           "sighting-id": "",
@@ -198,8 +198,8 @@
     {
       "id": 14,
       "species": "South Island Robin",
-      "image": "/images/birds/south-island-robin.jpg", 
-      "fun-fact": "South Island Robins are  sparsely distributed through the South Island and Stewart Island/Rakiura, although the distribution is not continuous.", 
+      "image": "/images/birds/south-island-robin.jpg",
+      "fun-fact": "South Island Robins are  sparsely distributed through the South Island and Stewart Island/Rakiura, although the distribution is not continuous.",
       "learn-more": "https://nzbirdsonline.org.nz/species/south-island-robin",
       "sightings": [
         {
@@ -214,7 +214,7 @@
       "id": 15,
       "species": "Kārearea",
       "image": "/images/birds/nz-falcon.jpg",
-      "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.", 
+      "fun-fact": "The New Zealand falcon is the fastest bird in the country, with speeds up to 230 km/hr.",
       "learn-more": "https://nzbirdsonline.org.nz/species/new-zealand-falcon",
       "sightings": [
         {
@@ -228,8 +228,8 @@
     {
       "id": 16,
       "species": "Silvereye",
-      "image": "/images/birds/silvereye.jpg", 
-      "fun-fact": "These birds colonised New Zealand from Australia in the 1850s.", 
+      "image": "/images/birds/silvereye.jpg",
+      "fun-fact": "These birds colonised New Zealand from Australia in the 1850s.",
       "learn-more": "https://nzbirdsonline.org.nz/species/silvereye",
       "sightings": [
         {
@@ -243,8 +243,8 @@
     {
       "id": 17,
       "species": "Takahē",
-      "image": "/images/birds/takahe.jpg", 
-      "fun-fact": "The South Island Takahē are the only remaining Takahē in New Zealand.", 
+      "image": "/images/birds/takahe.jpg",
+      "fun-fact": "The South Island Takahē are the only remaining Takahē in New Zealand.",
       "learn-more": "https://nzbirdsonline.org.nz/species/south-island-takahe",
       "sightings": [
         {
@@ -258,8 +258,8 @@
     {
       "id": 18,
       "species": "Tomtit",
-      "image": "/images/birds/tomtit.jpg", 
-      "fun-fact": "These birds weigh less than a AAA battery.", 
+      "image": "/images/birds/tomtit.jpg",
+      "fun-fact": "These birds weigh less than a AAA battery.",
       "learn-more": "https://nzbirdsonline.org.nz/species/tomtit",
       "sightings": [
         {
@@ -267,14 +267,21 @@
           "date": "",
           "location": "",
           "number of birds": ""
+        },
+        {
+          "species": "Tomtit",
+          "date": "Today",
+          "location": "Mount Eden",
+          "quantity": "3",
+          "comments": ""
         }
       ]
     },
     {
       "id": 19,
       "species": "Weka",
-      "image": "/images/birds/weka.jpg", 
-      "fun-fact": "The Weka are one of New Zealand's largest flightless birds; their population numbers are cyclic with expansion and decline.", 
+      "image": "/images/birds/weka.jpg",
+      "fun-fact": "The Weka are one of New Zealand's largest flightless birds; their population numbers are cyclic with expansion and decline.",
       "learn-more": "https://nzbirdsonline.org.nz/species/weka",
       "sightings": [
         {

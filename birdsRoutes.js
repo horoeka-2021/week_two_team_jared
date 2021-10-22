@@ -16,6 +16,43 @@ router.get('/add-sighting', (req, res) => {
   })
 })
 
+// post route for edit
+router.post('/add-sighting', (req, res) => {
+  console.log('add-sighting')
+  // define new cat
+  const newAnimal = { ...req.body }
+  // console.log(newAnimal)
+  // // read in json file
+  const fileName = 'homepageBirds.json'
+  utils.getData(fileName, (err, data) => {
+    if (err) {
+      res.status(500).send('Sorry we could not find what you were looking for')
+      return
+    }
+
+    // Match species of received to species of bird
+    const index = data.birds.findIndex(element => {
+      if (element.species === newAnimal.species) {
+        return true
+      }
+    })
+
+    data.birds[index].sightings.push(newAnimal)
+
+    // const newArr = [...data.cats, newAnimal]
+    // const newData = { cats: newArr }
+
+    utils.editData('homepageBirds.json', data, (err) => {
+      if (err) {
+        res.status(500).send('cat mods were not saved to file :(')
+        return
+      }
+      // console.log('succes?')
+      res.redirect(`/birds/${data.birds[index].id}`)
+    })
+  })
+})
+
 router.get('/:id', (req, res) => {
   const fileName = 'homepageBirds.json'
   utils.getData(fileName, (err, parses) => {
