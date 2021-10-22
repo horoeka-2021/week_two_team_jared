@@ -81,7 +81,7 @@ router.get('/:id', (req, res) => {
         cats: catsAtLocation,
         bird: birdObject
       }
-      
+      console.log(viewData);
       res.render('bird-details', viewData)
     }) 
   })

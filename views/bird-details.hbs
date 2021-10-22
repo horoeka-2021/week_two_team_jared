@@ -5,13 +5,13 @@
   <div>Fun fact: {{bird.fun-fact}}</div>
   <div>Learn more about the <a href="{{bird.learn-more}}">{{bird.species}}</a></div>
 
-<h3 class="center" > Recent Sightings for the {{species}}: </h3>
+<h3 class="center" > Recent Sightings for the {{bird.species}}: </h3>
 <div class="container" >
   <p class="bird-sightings">
-  {{#each sightings}}
+  {{#each bird.sightings}}
     Date: {{date}} <br>
     Location: {{location}} <br>
-    Number of birds: {{quantity}} <br>
+    Number of sightingss: {{quantity}} <br>
     Any comments: {{comments}}
   {{/each}}
   </p>
