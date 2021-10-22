@@ -1,7 +1,7 @@
 <h2>Bird Sighting Form</h2>
-<form>  
+<form class="form" action="/birds/add-sighting" method="post"> 
   <label> Select the bird species you identified from the dropdown list:</label>  
-  <select id="dropdown-list" >  
+  <select id="dropdown-list" name="species">  
   <option> --- Choose Species --- </option>  
   {{#each birds}}
   <option>
@@ -12,11 +12,11 @@
 
 <br>
   <label class="form-item">Date: </label> 
-  <input type="text">
+  <input type="text" name="date">
 
 <br>
 <label class="form-item">Location: </label> 
-<input type="text">
+<input type="text" name="location">
 
 <br>
   <label class="form-item">How many did you see? </label> 
@@ -24,28 +24,7 @@
 
 <br>
   <label class="form-item">Comments: </label>
-  <input type="text">
+  <input type="text" name="comments">
+
+<input type="submit" name="" value="Submit">
 </form>
-
-
-{{!-- 
-<form class="form" action="/bird/add-sighting" method="post">
-  <label for="name" class="form-item">
-    Name:
-    <input type="text" name="name" value="{{name}}">
-  </label>
-  
-  <label for="breed" class="form-item">
-    Breed:
-    <input type="text" name="breed" value="{{breed}}">
-  </label>
-  
-  <label for="owner" class="form-item">
-    Owner:
-    <input type="text" name="owner" value="{{owner}}">
-  </label>
-  
-  <input type="hidden" name="image" value="{{image}}">
-  
-  <input type="submit" name="" value="Submit">
-{{!-- </form> --}} 
