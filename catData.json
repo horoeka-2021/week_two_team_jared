@@ -1,26 +1,6 @@
 {
   "cats": [
     {
-      "id": 1,
-      "name": "Coco",
-      "owner": "Unkown",
-      "image": "/images/cats/cat1.jpg",
-      "dangerLevel": "Extremely High",
-      "comments": "Likes to play with her food while it's still alive",
-      "location": "Albert Park"
-    },
-    {
-      "id": 3,
-      "name": "Mr Fudge Baller",
-      "owner": "Ricky",
-      "dangerLevel": "High",
-      "comments": [
-        "Mr Fudge Ball may look tired and lazy but when he sets his sights on a bird he will not rest until it is in his mouth."
-      ],
-      "image": "/images/cats/cat3.png",
-      "location": "One Tree Hill"
-    },
-    {
       "name": "Max",
       "owner": "Matthew",
       "dangerLevel": "Low",
@@ -30,6 +10,26 @@
       "image": "/images/cats/cat2.jpg",
       "location": "One Tree Hill",
       "id": 2
+    },
+    {
+      "name": "Mr Fudge Baller",
+      "owner": "Ricky",
+      "dangerLevel": "High",
+      "comments": [
+        "Mr Fudge Ball may look tired and lazy but when he sets his sights on a bird he will not rest until it is in his mouth."
+      ],
+      "image": "/images/cats/cat3.png",
+      "location": "One Tree Hill",
+      "id": 3
+    },
+    {
+      "name": "Coco3",
+      "owner": "Unkown",
+      "dangerLevel": "Extremely High",
+      "comments": "Likes to play with her food while it's still alive",
+      "location": "Albert Park",
+      "image": "/images/cats/cat1.jpg",
+      "id": 1
     }
   ]
 }

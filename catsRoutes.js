@@ -13,6 +13,7 @@ router.get('/sightings', (req, res) => {
       res.status(500).send('Sorry we could not find what you were looking for')
       return
     }
+    console.log(parsedData)
     const viewData = {
       cats: parsedData.cats
     }
@@ -68,30 +69,57 @@ router.post('/registering', (req, res) => {
 // displays an individual cat
 router.get('/:id', (req, res) => {
   const fileName = 'catData.json'
-  utils.getData(fileName, (err, parses) => {
+  utils.getData(fileName, (err, parseCats) => {
     if (err) {
       res.status(500).send('Sorry we could not find what you were looking for')
       return
     }
     const id = req.params.id
-    const catArray = parses.cats
-    const catObject = catArray.find(element => element.id === Number(id))
-    res.render('cat-details', catObject)
+    const catObject = parseCats.cats.find(element => element.id === Number(id))
+    const catLocation = catObject.location
+
+    const birdFileName = 'homepageBirds.json'
+    utils.getData(birdFileName, (err, parsedBirds) => {
+      if (err) {
+        res.status(500).send('Sorry we could not find what you were looking for')
+        return
+      }
+
+      const birdsAtLocation = parsedBirds.birds.filter(bird => {
+        return bird.sightings.some(sighting => {
+          return sighting.location === catLocation
+        })
+      })
+
+      const viewData = {
+        cats: catObject,
+        birds: birdsAtLocation
+      }
+
+      res.render('cat-details', viewData)
+    })
   })
 })
 
 // edit route
 router.get('/:id/edit', (req, res) => {
-  const fileName = 'catData.json'
-  utils.getData(fileName, (err, parses) => {
+  const catFileName = 'catData.json'
+  utils.getData(catFileName, (err, parseCats) => {
     if (err) {
       res.status(500).send('Sorry we could not find what you were looking for')
       return
     }
     const id = req.params.id
-    const catArray = parses.cats
-    const catObject = catArray.find(element => element.id === Number(id))
-    res.render('catEdit', catObject)
+    const catObject = parseCats.cats.find(element => element.id === Number(id))
+    const catLocation = catObject.location
+    console.log(catObject)
+    console.log(catLocation)
+    
+    const viewData = {
+      cats: catObject,
+    }
+
+    res.render('catEdit', viewData)
   })
 })
 

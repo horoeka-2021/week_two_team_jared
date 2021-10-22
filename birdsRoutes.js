@@ -12,7 +12,6 @@ router.get('/add-sighting', (req, res) => {
       return
     }
     const viewData = parses
-    // console.log(viewData)
     res.render('bird-edit', viewData)
   })
 })
