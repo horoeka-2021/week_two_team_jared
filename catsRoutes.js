@@ -22,28 +22,7 @@ router.get('/sightings', (req, res) => {
 
 // register a cat
 router.get('/register', (req, res) => {
-  // OLD CODE
-  // console.log('register')
-  // const fileName = 'catData.json'
-  // utils.getData(fileName, (err, data) => {
-  //   if (err) {
-  //     res.status(500).send('Sorry we could not find what you were looking for')
-  //     return
-  //   }
-  // const id = req.params.id
-  // const catArray = parses.cats
-  // const catObject = catArray.find(element => element.id === Number(id))
-  // NEW CODE
-  // create new id
-  // find highest id currently
-  // const id = data.cats.reduce((acc, current) => {
-  //   if (current.id > acc) {
-  //     return current.id
-  //   }
-  // })
-  // register
   res.render('catRegister')
-  // })
 })
 
 // post route for edit
