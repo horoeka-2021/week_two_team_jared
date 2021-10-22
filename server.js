@@ -57,17 +57,17 @@ server.get('/about-us', (req, res) => {
   })
 })
 
-// Render about us page
-server.get('/nz-pests', (req, res) => {
-  const fileName = 'homepageBirds.json'
-  getData(fileName, (err, parsedData) => {
-    if (err) {
-      res.status(500).send('Sorry, we could not find what you were looking for :(')
-      return
-    }
-    const viewData = {
-      birds: parsedData.birds
-    }
-    res.render('nz-pests', viewData)
-  })
-})
+// Render pests page
+// server.get('/nz-pests', (req, res) => {
+//   const fileName = 'homepageBirds.json'
+//   getData(fileName, (err, parsedData) => {
+//     if (err) {
+//       res.status(500).send('Sorry, we could not find what you were looking for :(')
+//       return
+//     }
+//     const viewData = {
+//       birds: parsedData.birds
+//     }
+//     res.render('nz-pests', viewData)
+//   })
+// })
