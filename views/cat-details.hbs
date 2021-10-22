@@ -1,10 +1,24 @@
 <div class="cat">
-  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <h2>{{cats.name}}</h2>
+  <img class="img-circle" src="{{cats.image}}" alt="{{cats.name}}">
   <h2>{{name}}</h2>
-  <div class="detail">Owner: {{owner}}</div>
-  <div class="detail">Danger Level: {{dangerLevel}}</div>
-  <div class="detail">Comments: {{comments}}</div>
-  <div class="detail">Location: {{location}}</div>
+  <div class="detail">Owner: {{cats.owner}}</div>
+  <div class="detail">Danger Level: {{cats.dangerLevel}}</div>
+  <div class="detail">Comments: {{cats.comments}}</div>
+  <div class="detail">Location: {{cats.location}}</div>
   <br>
-  <a href="/cats/{{id}}/edit">Edit</a>
+  <a href="/cats/{{cats.id}}/edit">Edit</a>
+</div>
+
+<div class="sightings">
+  <h3>Bird Sightings at the Same Location</h3>
+  <table>
+    {{#each birds}}
+    <tr>
+      <td>{{species}}</td>
+    </tr>
+    {{/each}}
+
+  </table>
+
 </div>

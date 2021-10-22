@@ -1,32 +1,32 @@
-<form class="form" action="/cats/{{id}}/edit" method="post">
-  <img class="img-circle" src="{{image}}" alt="{{name}}">
+<form class="form" action="/cats/{{cats.id}}/edit" method="post">
+  <img class="img-circle" src="{{cats.image}}" alt="{{cats.name}}">
   <br>
   <label for="name" class="form-item">
     Name:
-    <input type="text" name="name" value="{{name}}">
+    <input type="text" name="name" value="{{cats.name}}">
   </label>
   
   <label for="owner" class="form-item">
     Owner:
-    <input type="text" name="owner" value="{{owner}}">
+    <input type="text" name="owner" value="{{cats.owner}}">
   </label>
   
   <label for="dangerLevel" class="form-item">
     Danger Levels:
-    <input type="text" name="dangerLevel" value="{{dangerLevel}}">
+    <input type="text" name="dangerLevel" value="{{cats.dangerLevel}}">
   </label>
   
   <label for="comments" class="form-item">
     Comments:
-    <input type="text" name="comments" value="{{comments}}">
+    <input type="text" name="comments" value="{{cats.comments}}">
   </label>
   
   <label for="Location" class="form-item">
     Location:
-    <input type="text" name="comments" value="{{location}}">
+    <input type="text" name="location" value="{{cats.location}}">
   </label>
   
-  <input type="hidden" name="image" value="{{image}}">
+  <input type="hidden" name="image" value="{{cats.image}}">
   
   <br>
   <input type="submit" name="" value="Submit">
