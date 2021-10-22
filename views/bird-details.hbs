@@ -4,3 +4,13 @@
   <div>Fun fact: {{fun-fact}}</div>
   <div>Learn more about the <a href="{{learn-more}}">{{species}}</a></div>
 </div>
+<h3 class="center" > Recent Sightings for the {{species}}: </h3>
+<div class="container" >
+  <p class="bird-sightings">
+  {{#each sightings}}
+    {{date}} <br>
+    {{location}} <br>
+    {{quantity}}
+  {{/each}}
+  </p>
+</div>
