@@ -1,5 +1,6 @@
 <form class="form" action="/cats/{{id}}/edit" method="post">
   <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <br>
   <label for="name" class="form-item">
     Name:
     <input type="text" name="name" value="{{name}}">
@@ -19,12 +20,12 @@
     Comments:
     <input type="text" name="comments" value="{{comments}}">
   </label>
-
+  
   <label for="Location" class="form-item">
     Location:
     <input type="text" name="comments" value="{{location}}">
   </label>
-
+  
   <input type="hidden" name="image" value="{{image}}">
   
   <br>

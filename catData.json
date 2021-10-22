@@ -25,11 +25,20 @@
       "owner": "Matthew",
       "dangerLevel": "Low",
       "comments": [
-        "Struggles to walk let alone chase birds, however, approach with caution as he likes to hit people,Mt Eden",
-        "One Tree Hill"
+        "Struggles to walk let alone chase birds, however, approach with caution as he likes to hit people,Mt Eden"
       ],
       "image": "/images/cats/cat2.jpg",
+      "location": "One Tree Hill",
       "id": 2
+    },
+    {
+      "name": "Mango",
+      "owner": "Eva",
+      "dangerLevel": "Low",
+      "comments": "in training",
+      "location": "Maraetai",
+      "image": "",
+      "id": 4
     }
   ]
 }

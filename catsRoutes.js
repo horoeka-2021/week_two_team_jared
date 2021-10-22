@@ -21,6 +21,72 @@ router.get('/sightings', (req, res) => {
   })
 })
 
+// register a cat
+router.get('/register', (req, res) => {
+  // OLD CODE
+  // console.log('register')
+  // const fileName = 'catData.json'
+  // utils.getData(fileName, (err, data) => {
+  //   if (err) {
+  //     res.status(500).send('Sorry we could not find what you were looking for')
+  //     return
+  //   }
+  // const id = req.params.id
+  // const catArray = parses.cats
+  // const catObject = catArray.find(element => element.id === Number(id))
+  // NEW CODE
+  // create new id
+  // find highest id currently
+  // const id = data.cats.reduce((acc, current) => {
+  //   if (current.id > acc) {
+  //     return current.id
+  //   }
+  // })
+  // register
+  res.render('catRegister')
+  // })
+})
+
+// post route for edit
+router.post('/registering', (req, res) => {
+  console.log('registering')
+  // define new cat
+  const newAnimal = req.body
+
+  // // read in json file
+  const fileName = 'catData.json'
+  utils.getData(fileName, (err, data) => {
+    if (err) {
+      res.status(500).send('Sorry we could not find what you were looking for')
+      return
+    }
+    // create new id
+    // find highest id currently
+    let id = 0
+    id = data.cats.reduce((acc, current) => {
+      if (current.id > acc) {
+        return current.id
+      }
+      return acc
+    }, 0)
+
+    // setting id up
+    newAnimal.id = id + 1
+
+    const newArr = [...data.cats, newAnimal]
+    const newData = { cats: newArr }
+
+    utils.editData('catData.json', newData, (err) => {
+      if (err) {
+        res.status(500).send('cat mods were not saved to file :(')
+        return
+      }
+      // console.log('succes?')
+      res.redirect(`/cats/${id + 1}`)
+    })
+  })
+})
+
 // displays an individual cat
 router.get('/:id', (req, res) => {
   const fileName = 'catData.json'
