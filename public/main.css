@@ -121,3 +121,76 @@ body {
 .form-item {
   margin: 4px;
 }
+
+/* Phone */
+@media (max-width: 480px) { 
+  .red-button {
+    background-color: #621B00;
+    font-size: larger;
+    color: ivory;
+    margin: auto;
+    padding: auto;
+    border-radius: 5%;
+    /* justify-content: space-around; */
+  }
+  .img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 175px;
+    height: 175px;
+  }  
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .red-button {
+    background-color: #621B00;
+    font-size: larger;
+    color: ivory;
+    margin: auto;
+    padding: auto;
+    border-radius: 5%;
+    /* justify-content: space-around; */
+  }  
+  .img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+  } 
+  .nav-bar {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5%;
+    font-size: larger;
+  }
+}
+
+/* Desktop */ 
+@media (max-width: 1200px) {
+  body {
+    background-color: cornflowerblue;
+  }
+  .red-button {
+    background-color: #621B00;
+    font-size: larger;
+    color: ivory;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5%;
+   }  
+  .img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+  } 
+  .nav-bar {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5%;
+    font-size: larger;
+  }
+}
